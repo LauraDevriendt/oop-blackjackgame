@@ -3,7 +3,8 @@ declare(strict_types=1);
 
 class Deck
 {
-    private const CARDS_PER_SUIT = 14;
+    // KOEN is checking this
+    private const CARDS_PER_SUIT = 13;
 
     private $cards = [];
 
