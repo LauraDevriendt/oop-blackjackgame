@@ -41,7 +41,6 @@ class Player
         $card = $deck->drawCard();
         $this->setCards($card);
         $game->setDeck($deck);
-        $game->setPlayer($this);
         if ($this->getScore() > self::PLAYER_LIMIT) {
             $this->setLost(true);
         }
